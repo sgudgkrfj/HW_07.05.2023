@@ -1,5 +1,7 @@
-#2
-def tr(*args):
-    print([max(args),min(args)])
-tr(12,34,78,5)
-
+#3
+def ccc(*args):
+    d={}
+    for i in args:
+        d[i]=i**2
+    print(d)
+ccc(10,20,5)
