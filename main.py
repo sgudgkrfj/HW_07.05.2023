@@ -1,6 +1,5 @@
-#1
-def bebra(*args):
-    print(args,sep=", ")
-bebra("6y455u","3h6424","45")
-
+#2
+def tr(*args):
+    print([max(args),min(args)])
+tr(12,34,78,5)
 
